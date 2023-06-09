@@ -36,15 +36,21 @@ Describe: mrReplace()
 
 Test: "It will replace any number containing the number 1 with 'Beep!'"
 Code:
-const text = "10"
-mrReplace(text)
+const userNum = "10"
+mrReplace(userNum)
 Expected Output: ["Beep!"]
 
 Test: "It will replace any number containing the number 2 with 'Boop!'"
 Code:
-const text = "234"
-mrReplace(text)
+const userNum = "22"
+mrReplace(userNum)
 Expected Output: ["Boop!"]
+
+Test: "It will replace any number containing the number 2 with 'Boop!'"
+Code:
+const userNum = "3"
+mrReplace(userNum)
+Expected Output: ["Won't you be my neighbor?"]
 
 ## License
 

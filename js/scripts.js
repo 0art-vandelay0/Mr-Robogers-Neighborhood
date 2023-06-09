@@ -1,40 +1,41 @@
-function mrReplace(text) {
+function mrReplace(userNum) {
     const nums = ["1", "2", "3"];
     const wordsToMR = [];
 
-    if (text.includes("3")) {
+    if (userNum.includes("3")) {
         wordsToMR.push("Won't you be my neighbor!");
-    } else if (text.includes("2")) {
+    } else if (userNum.includes("2")) {
         wordsToMR.push("Boop!");
-    } else if (text.includes("1")) {
+    } else if (userNum.includes("1")) {
         wordsToMR.push("Beep!");
-    }
-
+    } else {
+        wordsToMR.push("not in the list");
+    };
     return wordsToMR.join(" ");
 }
 
-const text = "12";
-console.log(mrReplace(text));
+const userNum = "5";
+console.log(mrReplace(userNum));
 
 
 
-// function mrReplace(text) {
+// function mrReplace(userNum) {
 //     const nums = ["1"];
 //     const wordsToMR = [];
 
 //     for (let i = 0; i < nums.length; i++) {
-//         if (text.includes(nums[i])) {
+//         if (userNum.includes(nums[i])) {
 //         wordsToMR.push("Beep!");
 //         break;
 //         }
 //     }
 
 //     if (wordsToMR.length === 0) {
-//         wordsToMR.push(text);
+//         wordsToMR.push(userNum);
 //     }
 
 //     return wordsToMR.join(" ");
 // }
 
-// const text = "10";
-// console.log(mrReplace(text));
+// const userNum = "10";
+// console.log(mrReplace(userNum));
