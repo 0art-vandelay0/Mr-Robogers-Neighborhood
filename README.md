@@ -2,7 +2,7 @@
 
 #### By Casey Hill
 
-#### Give Mr. Roboger a number and he will return a greeting.
+#### :robot: Give Mr. Roboger a number and he will return a greeting. :robot:
 
 ## Technologies Used
 
@@ -33,15 +33,6 @@ A true robotical neighbor.
 ## Known Bugs
 
 - No known bugs :beetle:
-
-## License
-
-Please contact caseyfhill1@gmail.com with any the following:
-
-- Found bugs :lady_beetle:
-- Alterations and improvements
-- General Questions
-- Any contributions you would like to make! :old_key:
 
 ## **Test Cases**
 
@@ -85,6 +76,11 @@ Describe: mrReplace()
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}_
+Please contact caseyfhill1@gmail.com with any the following:
+
+- Found bugs :lady_beetle:
+- Alterations and improvements
+- General Questions
+- Any contributions you would like to make! :old_key:
 
 Copyright (c) 06/09/2023 Casey Hill
