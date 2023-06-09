@@ -58,6 +58,12 @@ Describe: mrReplace()
     mrReplace(userNum)
     Expected Output: ["Boop!"]
 
+5.  Test: "It will replace a number containing 2 if a 3 is present"
+    Code:
+    const userNum = "232"
+    mrReplace(userNum)
+    Expected Output: ["Won't you be my neighbor?"]
+
 ## License
 
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}_
