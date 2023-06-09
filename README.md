@@ -32,14 +32,6 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## **Test Cases**
 
-Describe: countUp()
-
-1. Test: "It will return a count that increments by 1 from 0 to the userNum"
-   Code:
-   const userNum = "5"
-   mrReplace(userNum)
-   Expected Output: [0, 1, 2, 3, 4, 5]
-
 Describe: mrReplace()
 
 1. Test: "It will replace user input number containing the number 1 with 'Beep!'"
@@ -72,14 +64,14 @@ Describe: mrReplace()
    mrReplace(userNum)
    Expected Output: ["Won't you be my neighbor?"]
 
-6. Test: "It will return the count from 0 to userNum"
+6. Test: "It will replace a number in the count list containing 1, 2, or 3 with 'Beep', 'Boop!', or 'Won't you be my neighbor'."
    Code:
-   const userNum = "7"
+   const userNum = "14"
    mrReplace(userNum)
-   Expected Output: [1, 2, 3, 4, 5, 6, 7]
+   Expected Output: [0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!]
 
 ## License
 
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}_
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) 06/09/2023 Casey Hill
