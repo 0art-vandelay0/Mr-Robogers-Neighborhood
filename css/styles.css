@@ -15,6 +15,14 @@ body {
     color: black;
 }
 
+.dark-mode-div {
+    color: whitesmoke;
+}
+
+.light-mode-div {
+    color: black;
+}
+
 .hidden {
     display: none;
 }
