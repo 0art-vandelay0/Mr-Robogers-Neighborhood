@@ -19,37 +19,51 @@ function mrReplace(userNum) {
 }
 
 // UI Logic
-window.addEventListener("load", function() {
-    document.querySelector("#num-replacer").onsubmit = function(event) {
-        event.preventDefault();
+document.addEventListener("DOMContentLoaded", function() {
+    window.addEventListener("load", function() {
+        document.querySelector("#num-replacer").onsubmit = function(event) {
+            event.preventDefault();
 
-        let numInput = document.getElementById("number").value;
-        let result = mrReplace(Number(numInput));
+            let numInput = document.getElementById("number").value;
+            let result = mrReplace(Number(numInput));
 
-        document.getElementById("new-sentence").innerText = result;
-        document.getElementById("result-container").removeAttribute("class");
+            document.getElementById("new-sentence").innerText = result;
+            document.getElementById("result-container").removeAttribute("class");
 
-        resetForm();
-    };
+            resetForm();
+        };
+    });
+
+    function resetForm() {
+        document.getElementById("number").value = "";
+    }
+
+    const darkModeButton = document.getElementById("dark-mode-button");
+    const lightModeButton = document.getElementById("light-mode-button");
+    const responseP = document.getElementById("new-sentence");
+    const body = document.querySelector("body");
+    resultP = document.getElementById("result");
+
+    darkModeButton.addEventListener("click", function() {
+        body.setAttribute("class", "dark-mode");
+        body.removeAttribute("class", "light-mode");
+        responseP.removeAttribute("class", "light-mode-text");
+        responseP.setAttribute("class", "dark-mode-text");
+        resultP.removeAttribute("class", "light-mode-paragraph");
+        resultP.setAttribute("class", "dark-mode-paragraph");
+    });
+
+    lightModeButton.addEventListener("click", function() {
+        body.removeAttribute("class", "dark-mode");
+        body.setAttribute("class", "light-mode");
+        responseP.removeAttribute("class", "dark-mode-text");
+        responseP.setAttribute("class", "light-mode-text");
+        resultP.removeAttribute("class", "dark-mode-paragraph");
+        resultP.setAttribute("class", "light-mode-paragraph");
+    });
 });
 
-function resetForm() {
-    document.getElementById("number").value = "";
-}
 
-const darkModeButton = document.getElementById("dark-mode-button");
-const lightModeButton = document.getElementById("light-mode-button");
-const repsonseP = document.getElementById("new-sentence");
-const body = document.querySelector("body");
 
-darkModeButton.addEventListener("click", function() {
-    body.setAttribute("class", "dark-mode");
-    body.removeAttribute("class", "light-mode");
-    // repsonseP.setAttribute("class", "dark-mode");
-});
 
-lightModeButton.addEventListener("click", function() {
-    body.removeAttribute("class", "dark-mode");
-    body.setAttribute("class", "light-mode");
-    // repsonseP.setAttribute("class", "light-mode");
-});
+

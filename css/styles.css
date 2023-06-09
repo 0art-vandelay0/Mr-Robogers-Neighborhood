@@ -15,12 +15,22 @@ body {
     color: black;
 }
 
-.dark-mode-div {
+.dark-mode-text {
     color: whitesmoke;
 }
 
-.light-mode-div {
+.light-mode-text {
     color: black;
+    font-weight: bolder;
+}
+
+.dark-mode-paragraph {
+    color: rgb(164, 164, 229);
+}
+
+.light-mode-paragraph {
+    color: rgb(89, 77, 124);
+    font-weight: bolder;
 }
 
 .hidden {
@@ -33,24 +43,35 @@ body {
     margin-right: 10px;
 }
 
+div#input-container {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+div#buttons {
+    border: 2px solid rgb(121, 121, 166);
+    padding: 4px;
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(139, 119, 139);
+}
+
 button {
     border-radius: 5px;
     border: none;
-    padding: 4px;
+    padding: 5px;
+    margin: 8px;
     font-size: 13px;
 }
 
 p#result {
     font-size: 25px;
     font-weight: bold;
-    color: rgb(121, 121, 166);
     padding: 10px;
 }
 
 span#new-sentence {
     font-size: 18px;
-    font-weight: 200;
-    color: rgb(249, 249, 244);
     margin-bottom: 10px;
 }
 
@@ -59,7 +80,7 @@ div#result-container {
     margin: 75px;
     border: 2px solid rgb(121, 121, 166);
     border-radius: 30px;
-    padding: 15px;
+    padding: 50px;
 }
 
 div#result-container::before {
