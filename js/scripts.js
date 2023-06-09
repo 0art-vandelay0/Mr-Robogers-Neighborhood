@@ -26,7 +26,7 @@ window.addEventListener("load", function() {
         let numInput = document.getElementById("number").value;
         let result = mrReplace(Number(numInput));
 
-        console.log(result);
+        document.getElementById("new-sentence").innerText = result;
 
         resetForm();
     };
