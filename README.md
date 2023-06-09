@@ -32,37 +32,51 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## **Test Cases**
 
+Describe: countUp()
+
+1. Test: "It will return a count that increments by 1 from 0 to the userNum"
+   Code:
+   const userNum = "5"
+   mrReplace(userNum)
+   Expected Output: [0, 1, 2, 3, 4, 5]
+
 Describe: mrReplace()
 
-1.  Test: "It will replace user input number containing the number 1 with 'Beep!'"
-    Code:
-    const userNum = "10"
-    mrReplace(userNum)
-    Expected Output: ["Beep!"]
+1. Test: "It will replace user input number containing the number 1 with 'Beep!'"
+   Code:
+   const userNum = "10"
+   mrReplace(userNum)
+   Expected Output: ["Beep!"]
 
-2.  Test: "It will replace user input number containing the number 2 with 'Boop!'"
-    Code:
-    const userNum = "22"
-    mrReplace(userNum)
-    Expected Output: ["Boop!"]
+2. Test: "It will replace user input number containing the number 2 with 'Boop!'"
+   Code:
+   const userNum = "22"
+   mrReplace(userNum)
+   Expected Output: ["Boop!"]
 
-3.  Test: "It will replace user input number containing the number 2 with 'Boop!'"
-    Code:
-    const userNum = "3"
-    mrReplace(userNum)
-    Expected Output: ["Won't you be my neighbor?"]
+3. Test: "It will replace user input number containing the number 2 with 'Boop!'"
+   Code:
+   const userNum = "3"
+   mrReplace(userNum)
+   Expected Output: ["Won't you be my neighbor?"]
 
-4.  Test: "It will replace a number containing 1 if a 2 is present"
-    Code:
-    const userNum = "12"
-    mrReplace(userNum)
-    Expected Output: ["Boop!"]
+4. Test: "It will replace a number containing 1 if a 2 is present"
+   Code:
+   const userNum = "12"
+   mrReplace(userNum)
+   Expected Output: ["Boop!"]
 
-5.  Test: "It will replace a number containing 2 if a 3 is present"
-    Code:
-    const userNum = "232"
-    mrReplace(userNum)
-    Expected Output: ["Won't you be my neighbor?"]
+5. Test: "It will replace a number containing 2 if a 3 is present"
+   Code:
+   const userNum = "232"
+   mrReplace(userNum)
+   Expected Output: ["Won't you be my neighbor?"]
+
+6. Test: "It will return the count from 0 to userNum"
+   Code:
+   const userNum = "7"
+   mrReplace(userNum)
+   Expected Output: [1, 2, 3, 4, 5, 6, 7]
 
 ## License
 

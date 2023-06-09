@@ -3,7 +3,7 @@ function mrReplace(userNum) {
     const wordsToMR = [];
 
     if (userNum.includes("3")) {
-        wordsToMR.push("Won't you be my neighbor!");
+        const replacement = "Won't you be my neighbor!";
     } else if (userNum.includes("2")) {
         wordsToMR.push("Boop!");
     } else if (userNum.includes("1")) {
@@ -14,28 +14,36 @@ function mrReplace(userNum) {
     return wordsToMR.join(" ");
 }
 
-const userNum = "232";
-console.log(mrReplace(userNum));
+function countUp(userNum) {
+    const numbers = [];
+
+    for (let i = 0; i <= userNum; i++) {
+        numbers.push(i);
+    }
+
+    return numbers;
+}
+
+const userNum = 5;
+console.log(countUp(userNum));
 
 
 
 // function mrReplace(userNum) {
-//     const nums = ["1"];
+//     const nums = ["1", "2", "3"];
 //     const wordsToMR = [];
 
-//     for (let i = 0; i < nums.length; i++) {
-//         if (userNum.includes(nums[i])) {
+//     if (userNum.includes("3")) {
+//         wordsToMR.push("Won't you be my neighbor!");
+//     } else if (userNum.includes("2")) {
+//         wordsToMR.push("Boop!");
+//     } else if (userNum.includes("1")) {
 //         wordsToMR.push("Beep!");
-//         break;
-//         }
-//     }
-
-//     if (wordsToMR.length === 0) {
-//         wordsToMR.push(userNum);
-//     }
-
+//     } else {
+//         wordsToMR.push("not in the list");
+//     };
 //     return wordsToMR.join(" ");
 // }
 
-// const userNum = "10";
+// const userNum = "232";
 // console.log(mrReplace(userNum));
