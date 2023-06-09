@@ -1,4 +1,4 @@
-// Biz Logic
+// Business Logic
 function mrReplace(userNum) {
     const wordsToMR = [];
 
@@ -62,8 +62,3 @@ document.addEventListener("DOMContentLoaded", function() {
         resultP.setAttribute("class", "light-mode-paragraph");
     });
 });
-
-
-
-
-
