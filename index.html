@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
+    <title>Text Analyzer</title>
     <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <div class="container">
+        <h2>H2</h2>
+        <form id="num-replacer">
+            <div class="form-group">
+                <p>Enter a number and get a neighborly return:</p>
+                <label for="number">
+                    <input type="number" id="number" name="number" class="form-control">
+                </label>
+                <br />
+                <button type="submit" class="submit-button">Do it!</button>
+                <p>New Sentence: <span id="new-sentence"></span></p>
+                <br />
+            </div>
+        </form>
+        <p>Hello Neighbor, <span id="total-count"></span></p>
+    </div>
+    </div>
 </body>
 
 </html>
