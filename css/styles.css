@@ -5,6 +5,16 @@ body {
     text-align: center;
 }
 
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
 .hidden {
     display: none;
 }
@@ -57,4 +67,5 @@ div#result-container::before {
     background-repeat: no-repeat;
     opacity: 0.3;
     z-index: -1;
+    border-radius: 28px;
 }

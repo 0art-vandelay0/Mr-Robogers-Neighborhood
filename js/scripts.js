@@ -36,3 +36,19 @@ window.addEventListener("load", function() {
 function resetForm() {
     document.getElementById("number").value = "";
 }
+
+const darkModeButton = document.getElementById("dark-mode-button");
+const lightModeButton = document.getElementById("light-mode-button");
+const resultText = document.getElementById("div#test");
+const body = document.querySelector("body");
+
+darkModeButton.addEventListener("click", function() {
+    body.setAttribute("class","dark-mode");
+    body.removeAttribute("class", "light-mode");
+    resultText.setAttribute("class", "dark-mode");
+});
+
+lightModeButton.addEventListener("click", function() {
+    body.removeAttribute("class", "dark-mode");
+    body.setAttribute("class", "light-mode");
+});
