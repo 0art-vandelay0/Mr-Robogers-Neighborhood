@@ -30,6 +30,16 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 - _Any known issues_
 - _should go here_
 
+## **Test Cases**
+
+Describe: mrReplace()
+
+Test: "It will replace any number containing the number 1 with 'Beep!'"
+Code:
+const text = "10"
+mrReplace(text)
+Expected Output: ["Beep!"]
+
 ## License
 
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}_
