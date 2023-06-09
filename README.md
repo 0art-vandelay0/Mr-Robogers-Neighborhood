@@ -40,6 +40,12 @@ const text = "10"
 mrReplace(text)
 Expected Output: ["Beep!"]
 
+Test: "It will replace any number containing the number 2 with 'Boop!'"
+Code:
+const text = "234"
+mrReplace(text)
+Expected Output: ["Boop!"]
+
 ## License
 
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}_
