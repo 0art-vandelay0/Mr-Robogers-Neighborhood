@@ -14,7 +14,7 @@ function mrReplace(userNum) {
     return wordsToMR.join(" ");
 }
 
-const userNum = "5";
+const userNum = "12";
 console.log(mrReplace(userNum));
 
 

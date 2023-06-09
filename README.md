@@ -34,23 +34,29 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 Describe: mrReplace()
 
-Test: "It will replace any number containing the number 1 with 'Beep!'"
-Code:
-const userNum = "10"
-mrReplace(userNum)
-Expected Output: ["Beep!"]
+1.  Test: "It will replace user input number containing the number 1 with 'Beep!'"
+    Code:
+    const userNum = "10"
+    mrReplace(userNum)
+    Expected Output: ["Beep!"]
 
-Test: "It will replace any number containing the number 2 with 'Boop!'"
-Code:
-const userNum = "22"
-mrReplace(userNum)
-Expected Output: ["Boop!"]
+2.  Test: "It will replace user input number containing the number 2 with 'Boop!'"
+    Code:
+    const userNum = "22"
+    mrReplace(userNum)
+    Expected Output: ["Boop!"]
 
-Test: "It will replace any number containing the number 2 with 'Boop!'"
-Code:
-const userNum = "3"
-mrReplace(userNum)
-Expected Output: ["Won't you be my neighbor?"]
+3.  Test: "It will replace user input number containing the number 2 with 'Boop!'"
+    Code:
+    const userNum = "3"
+    mrReplace(userNum)
+    Expected Output: ["Won't you be my neighbor?"]
+
+4.  Test: "It will replace a number containing 1 if a 2 is present"
+    Code:
+    const userNum = "12"
+    mrReplace(userNum)
+    Expected Output: ["Boop!"]
 
 ## License
 
