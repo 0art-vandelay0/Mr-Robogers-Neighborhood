@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     background-color: black;
     color: whitesmoke;
+    text-align: center;
 }
 
 .hidden {
@@ -25,10 +26,19 @@ p#result {
     font-size: 25px;
     font-weight: bold;
     color: rgb(121, 121, 166);
+    padding: 10px;
 }
 
 span#new-sentence {
     font-size: 18px;
     font-weight: 200;
     color: rgb(160, 157, 59);
+    margin-bottom: 10px;
+}
+
+div#result-container {
+    margin: 75px;
+    border: 2px solid rgb(121, 121, 166);
+    border-radius: 30px;
+    padding: 15px;
 }

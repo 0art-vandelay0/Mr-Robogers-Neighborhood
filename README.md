@@ -1,34 +1,47 @@
-# _{Application Name}_
+# Mr. Roboger's Neighborhood
 
-#### By _**{List of contributors}**_
+#### By Casey Hill
 
-#### _{Brief description of application}_
+#### Give Mr. Roboger a number and he will return a greeting.
 
 ## Technologies Used
 
-- _List all_
-- _the major technologies_
-- _you used in your project_
-- _here_
+- JavaScript
+- CSS
+- HTML
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+Enter a number and the program will return a greeting that counts from zero to the input number, replacing any instances of "1" with "Beep!", "2" with "Boop!", and "3" with "Won't you be my neighbor?".
+A true robotical neighbor.
 
 ## Setup/Installation Requirements
 
-- _This is a great place_
-- _to list setup instructions_
-- _in a simple_
-- _easy-to-understand_
-- _format_
+### In VS Code
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+- Clone this repository to your local machine.
+- Open VS Code
+- Open the top level directory you just cloned
+- Open index.html in your Live Server extension
+
+### Directly in Browser
+
+- Clone this repository to your local machine.
+- Navigate to your browser
+- File > Open File > Choose {folder you just cloned} > open index.html
 
 ## Known Bugs
 
-- _Any known issues_
-- _should go here_
+- No known bugs :beetle:
+
+## License
+
+Please contact caseyfhill1@gmail.com with any the following:
+
+- Found bugs :lady_beetle:
+- Alterations and improvements
+- General Questions
+- Any contributions you would like to make! :old_key:
 
 ## **Test Cases**
 
@@ -60,7 +73,7 @@ Describe: mrReplace()
 
 5. Test: "It will replace a number containing 2 if a 3 is present"
    Code:
-   const userNum = "232"
+   const userNum = "32"
    mrReplace(userNum)
    Expected Output: ["Won't you be my neighbor?"]
 
