@@ -38,40 +38,40 @@ A true robotical neighbor.
 
 Describe: mrReplace()
 
-1. Test: "It will replace user input number containing the number 1 with 'Beep!'"
-   Code:
-   const userNum = "10"
-   mrReplace(userNum)
-   Expected Output: ["Beep!"]
+1. Test: "It will replace user input number containing the number 1 with 'Beep!'"<br>
+   Code:<br>
+   const userNum = "10"<br>
+   mrReplace(userNum)<br>
+   Expected Output: ["Beep!"]<br>
 
-2. Test: "It will replace user input number containing the number 2 with 'Boop!'"
-   Code:
-   const userNum = "22"
-   mrReplace(userNum)
+2. Test: "It will replace user input number containing the number 2 with 'Boop!'"<br>
+   Code:<br>
+   const userNum = "22"<br>
+   mrReplace(userNum)<br>
    Expected Output: ["Boop!"]
 
-3. Test: "It will replace user input number containing the number 2 with 'Boop!'"
-   Code:
-   const userNum = "3"
-   mrReplace(userNum)
+3. Test: "It will replace user input number containing the number 2 with 'Boop!'"<br>
+   Code:<br>
+   const userNum = "3"<br>
+   mrReplace(userNum)<br>
    Expected Output: ["Won't you be my neighbor?"]
 
-4. Test: "It will replace a number containing 1 if a 2 is present"
-   Code:
-   const userNum = "12"
-   mrReplace(userNum)
+4. Test: "It will replace a number containing 1 if a 2 is present"<br>
+   Code:<br>
+   const userNum = "12"<br>
+   mrReplace(userNum)<br>
    Expected Output: ["Boop!"]
 
-5. Test: "It will replace a number containing 2 if a 3 is present"
-   Code:
-   const userNum = "32"
-   mrReplace(userNum)
+5. Test: "It will replace a number containing 2 if a 3 is present"<br>
+   Code:<br>
+   const userNum = "32"<br>
+   mrReplace(userNum)<br>
    Expected Output: ["Won't you be my neighbor?"]
 
-6. Test: "It will replace a number in the count list containing 1, 2, or 3 with 'Beep', 'Boop!', or 'Won't you be my neighbor'."
-   Code:
-   const userNum = "14"
-   mrReplace(userNum)
+6. Test: "It will replace a number in the count list containing 1, 2, or 3 with 'Beep', 'Boop!', or 'Won't you be my neighbor'"<br>
+   Code:<br>
+   const userNum = "14"<br>
+   mrReplace(userNum)<br>
    Expected Output: [0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!]
 
 ## License
